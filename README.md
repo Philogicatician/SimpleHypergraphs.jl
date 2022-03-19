@@ -8,6 +8,8 @@
 
 
 ## Installation instructions
+### NOTE by Kevin (Philogicatician):
+The using the `GraphBased` argument in `draw(h, GraphBased, ...)` stopped working as per [this open issue](https://github.com/pszufe/SimpleHypergraphs.jl/issues/46) from the original maintainer [pszufe](https://github.com/pszufe).  At the moment, it seems using `hypernetx` is necessary, and I'm not sure what "other options" pszufe might be referring to.
 ### Prerequisites for plotting
 `Simplehypergraphs` can optionally use (among other options) the Python's [hypernetx](https://github.com/pnnl/HyperNetX) library so if you want the `hypernetx` plotting to work you need to install it first along with its all dependent libraries. In Julia command line REPL press `]` for the Julia package manager and run:
 ```
